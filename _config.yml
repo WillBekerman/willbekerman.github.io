@@ -85,7 +85,7 @@ author:
   bio              : "Student at Cornell University"
   location         : "Ithaca, NY"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :  # example: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=WkXElGwAAAAJ&hl=en&oi=ao"
   email            : "wjb239@cornell.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
