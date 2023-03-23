@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Biometry & Statistics, Cornell University, 2022
-* Ph.D in Statistics, GitHub University, 2027 (expected)
+* Ph.D in Statistics, Wharton School, University of Pennsylvania, 2027 (expected)
 
 Work experience
 ======
