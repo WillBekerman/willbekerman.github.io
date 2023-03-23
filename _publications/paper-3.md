@@ -3,7 +3,7 @@ title: "Comparison of CYGNSS and Jason-3 wind speed measurements via Gaussian pr
 collection: publications
 permalink: /publication/gaussian-processes
 excerpt: ''
-date: 2023
+date: 2023-01-01
 venue: 'Data Science in Science'
 paperurl: 'https://arxiv.org/abs/2203.03750'
 citation: ''

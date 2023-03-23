@@ -3,7 +3,7 @@ title: "RZiMM-scRNA: A regularized zero-inflated mixture model framework for sin
 collection: publications
 permalink: /publication/scRNA-analysis
 excerpt: ''
-date: 2023
+date: 2023-01-01
 venue: 'Annals of Applied Statistics'
 paperurl: 'https://arxiv.org/abs/2110.12964'
 citation: ''
