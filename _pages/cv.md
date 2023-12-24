@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Click to download CV [here.](https://willbekerman.github.io/files/Bekerman-CV-2023.pdf) 
+Click [here](https://willbekerman.github.io/files/Bekerman-CV-2023.pdf) to download my CV.
