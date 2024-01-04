@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Click [here](https://willbekerman.github.io/files/Bekerman-CV-2023.pdf) to download my CV.
+Please click [here](https://willbekerman.github.io/files/Bekerman-CV-2023.pdf) to view my CV.

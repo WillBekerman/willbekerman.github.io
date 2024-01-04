@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m Will Bekerman, a second-year PhD student in Statistics at the Wharton School of the University of Pennsylvania working with Prof. [Dylan Small](https://statistics.wharton.upenn.edu/profile/dsmall/).
+Hi! I’m William Bekerman, a second-year PhD student in Statistics at the Wharton School of the University of Pennsylvania working with Prof. [Dylan Small](https://statistics.wharton.upenn.edu/profile/dsmall/).
 
 My research interests include causal inference, the design and analysis of observational studies, and applications to areas such as health and public policy.
 
