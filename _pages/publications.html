@@ -30,51 +30,29 @@ author_profile: true
 
   <br>
 
-  <h3>Boosting e-BH via conditional calibration</h3>
-  <p><b>Junu Lee</b> and Zhimei Ren <br>
-    <a href='https://arxiv.org/abs/2404.17562' id='link'>[link]</a>
-    <a href='https://github.com/leejunu/e-bh-cc' id='link'>[code]</a>
+  <h3>Planning for Gold: Sample Splitting for Valid Powerful Design of Observational Studies</h3>
+  <p><b>William Bekerman</b>, Abhinandan Dalal, Carlo del Ninno, Dylan S. Small<br>
+    <a href='https://arxiv.org/abs/2406.00866' id='link'>[link]</a>
+    <a href='https://github.com/WillBekerman/planning-for-gold' id='link'>[code]</a>
   </p>
 
   <button class='toggle-button' onclick="showAbstract('abstract1')">Abstract</button>
 
-  <p class='abstract' id="abstract1">The e-BH procedure is an e-value-based multiple testing procedure that provably
-    controls the false discovery rate (FDR) under any dependence structure between the e-values. Despite this appealing
-    theoretical FDR control guarantee, the e-BH procedure often suffers from low power in practice. In this paper, we
-    propose a general framework that boosts the power of e-BH without sacrificing its FDR control under arbitrary
-    dependence. This is achieved by the technique of conditional calibration, where we take as input the e-values and
-    calibrate them to be a set of "boosted e-values" that are guaranteed to be no less -- and are often more -- powerful
-    than the original ones. Our general framework is explicitly instantiated in three classes of multiple testing
-    problems: (1) testing under parametric models, (2) conditional independence testing under the model-X setting, and
-    (3) model-free conformalized selection. Extensive numerical experiments show that our proposed method significantly
-    improves the power of e-BH while continuing to control the FDR. We also demonstrate the effectiveness of our method
-    through an application to an observational study dataset for identifying individuals whose counterfactuals satisfy
-    certain properties.</p>
+  <p class='abstract' id="abstract1">Observational studies are valuable tools for inferring causal effects in the absence of controlled experiments. However, these studies may be biased due to the presence of some relevant, unmeasured set of covariates. The design of an observational study has a prominent effect on its sensitivity to hidden biases, and the best design may not be apparent without examining the data. One approach to facilitate a data-inspired design is to split the sample into a planning sample for choosing the design and an analysis sample for making inferences. We devise a powerful and flexible method for selecting outcomes in the planning sample when an unknown number of outcomes are affected by the treatment. We investigate the theoretical properties of our method and conduct extensive simulations that demonstrate pronounced benefits, especially at higher levels of allowance for unmeasured confounding. Finally, we demonstrate our method in an observational study of the multi-dimensional impacts of a devastating flood in Bangladesh.</p>
 
   <br>
 
-  <h3 style='width: 70%'>Navigating Data Heterogeneity in Federated Learning: A Semi-Supervised Federated Object Detection
-  </h3>
-  <p>Taehyeon Kim, Eric Lin, <b>Junu Lee</b>, Christian Lau, Vaikkunth Mugunthan <br>
-    <a href='https://proceedings.neurips.cc/paper_files/paper/2023/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html' id='link'>[link]</a>
+  <h3>RZiMM-scRNA: A regularized zero-inflated mixture model framework for single-cell RNA-seq data</h3>
+  <p>Xinlei Mi, <b>William Bekerman</b>, Anil K Rustgi, Peter A Sims, Peter D Canoll, Jianhua Hu<br>
+    <a href='https://projecteuclid.org/journals/annals-of-applied-statistics/volume-18/issue-1/RZiMM-scRNA--A-regularized-zero-inflated-mixture-model-framework/10.1214/23-AOAS1761.short' id='link'>[link]</a>
+    <a href='https://github.com/SkadiEye/RZiMM' id='link'>[code]</a>
   </p>
 
   <button class='toggle-button' onclick="showAbstract('abstract2')">Abstract</button>
 
-  <p class='abstract' id="abstract2">Federated Learning (FL) has emerged as a potent framework for training models
-    across distributed data sources while maintaining data privacy. Nevertheless, it faces challenges with limited
-    high-quality labels and non-IID client data, particularly in applications like autonomous driving. To address these
-    hurdles, we navigate the uncharted waters of Semi-Supervised Federated Object Detection (SSFOD). We present a
-    pioneering SSFOD framework, designed for scenarios where labeled data reside only at the server while clients
-    possess unlabeled data. Notably, our method represents the inaugural implementation of SSFOD for clients with 0%
-    labeled non-IID data, a stark contrast to previous studies that maintain some subset of labels at each client. We
-    propose FedSTO, a two-stage strategy encompassing Selective Training followed by Orthogonally enhanced
-    full-parameter training, to effectively address data shift (e.g. weather conditions) between server and clients. Our
-    contributions include selectively refining the backbone of the detector to avert overfitting, orthogonality
-    regularization to boost representation divergence, and local EMA-driven pseudo label assignment to yield
-    high-quality pseudo labels. Extensive validation on prominent autonomous driving datasets (BDD100K, Cityscapes, and
-    SODA10M) attests to the efficacy of our approach, demonstrating state-of-the-art results. Remarkably, FedSTO, using
-    just 20-30% of labels, performs nearly as well as fully-supervised centralized training methods.</p>
+  <p class='abstract' id="abstract2">Applications of single-cell RNA sequencing in various biomedical research areas have been blooming. This new technology provides unprecedented opportunities to study disease heterogeneity at the cellular level. However, unique characteristics of scRNA-seq data, including large dimensionality, high dropout rates, and possibly batch effects, bring great difficulty into the analysis of such data. Not appropriately addressing these issues obstructs true scientific discovery. Herein we propose a unified Regularized Zero-inflated Mixture Model framework, designed for scRNA-seq data (RZiMM-scRNA), to simultaneously detect cell subgroups and identify gene differential expression based on a developed importance score, accounting for both dropouts and batch effects. We conduct extensive simulation studies in which we evaluate the performance of RZiMM-scRNA and compare it with several popular methods, including Seurat, SC3, K-means, and hierarchical clustering. Simulation results show that RZiMM-scRNA demonstrates superior clustering performance and enhanced biomarker detection accuracy, compared to alternative methods, especially when cell subgroups are less distinct, verifying the robustness of our method.
+
+Our empirical investigations focus on two brain tumor studies dealing with astrocytoma of various grades, including the most malignant of all brain tumors, glioblastoma multiforme (GBM). Our goal is to delineate cell heterogeneity and identify driving biomarkers associated with these tumors. Notably, RZiMM-scNRA successfully identifies a small group of oligodendrocyte cells, which has drawn much attention in biomedical literature on brain cancers. In addition, our method discovers several new biomarkers which are not discussed in the original studies, including PLP1, BCAN, and PTPRZ1—all associated with the development and malignant growth of glioma—as well as CAMK2B, which is downregulated in glioma and GBM and implicated in neurodevelopment, brain function, learning and memory processes.</p>
 
 <script>
 function showAbstract(abstractId) {
