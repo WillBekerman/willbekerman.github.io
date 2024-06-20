@@ -5,7 +5,26 @@ permalink: /research/
 author_profile: true
 ---
 
-<script src="abstractscript.js"></script>
+<head>
+<style>
+.abstract {
+  display: none;
+  background-color: lightgray;
+  padding: 20px;
+  width: 70%;
+}
+.toggle-button {
+  display: block;
+  width: 70%;
+  padding: 10px 10px 10px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+</style>
+</head>
+
 
 <body>
 
@@ -15,9 +34,9 @@ author_profile: true
     <a href='https://github.com/leejunu/e-bh-cc' id='link'>[code]</a>
   </p>
 
-  <button onclick="showAbstract('abstract1')">Abstract</button>
+  <button class='toggle-button' onclick="showAbstract('abstract1')">Abstract</button>
 
-  <p id="abstract1">The e-BH procedure is an e-value-based multiple testing procedure that provably
+  <p class='abstract' id="abstract1">The e-BH procedure is an e-value-based multiple testing procedure that provably
     controls the false discovery rate (FDR) under any dependence structure between the e-values. Despite this appealing
     theoretical FDR control guarantee, the e-BH procedure often suffers from low power in practice. In this paper, we
     propose a general framework that boosts the power of e-BH without sacrificing its FDR control under arbitrary
@@ -38,9 +57,9 @@ author_profile: true
     <a href='https://proceedings.neurips.cc/paper_files/paper/2023/hash/066e4dbfeccb5dc2851acd5eca584937-Abstract-Conference.html' id='link'>[link]</a>
   </p>
 
-  <button onclick="showAbstract('abstract2')">Abstract</button>
+  <button class='toggle-button' onclick="showAbstract('abstract2')">Abstract</button>
 
-  <p id="abstract2">Federated Learning (FL) has emerged as a potent framework for training models
+  <p class='abstract' id="abstract2">Federated Learning (FL) has emerged as a potent framework for training models
     across distributed data sources while maintaining data privacy. Nevertheless, it faces challenges with limited
     high-quality labels and non-IID client data, particularly in applications like autonomous driving. To address these
     hurdles, we navigate the uncharted waters of Semi-Supervised Federated Object Detection (SSFOD). We present a
@@ -54,5 +73,16 @@ author_profile: true
     high-quality pseudo labels. Extensive validation on prominent autonomous driving datasets (BDD100K, Cityscapes, and
     SODA10M) attests to the efficacy of our approach, demonstrating state-of-the-art results. Remarkably, FedSTO, using
     just 20-30% of labels, performs nearly as well as fully-supervised centralized training methods.</p>
-</body>
 
+<script>
+function showAbstract(abstractId) {
+  var paragraph = document.getElementById(abstractId);
+  if (paragraph.style.display === "none") {
+    paragraph.style.display = "block";
+  } else {
+    paragraph.style.display = "none";
+  }
+}
+</script>
+
+</body>
