@@ -49,3 +49,13 @@ h1{font-size:27px}
 .tools button{font-size:15px}
 footer{font-size:14px}
 @media(max-width:700px){.brand{font-size:22px}.profile{font-size:15px}}
+
+/* Paper resources and the abstract toggle share one row. */
+.paper{display:grid;grid-template-columns:minmax(0,1fr)}
+.paper-meta{grid-row:1}
+.paper h3{grid-row:2}
+.paper .authors{grid-row:3}
+.paper .paper-links{grid-column:1;grid-row:4;align-self:start;justify-self:start;position:relative;z-index:1;max-width:calc(100% - 115px);flex-wrap:wrap;margin:0;min-height:28px;align-items:center}
+.paper details{grid-column:1;grid-row:4;min-width:0;border-top:0}
+.paper summary{width:max-content;max-width:110px;margin-left:auto;min-height:28px;padding:0;gap:10px}
+.paper .abstract{border-top:1px solid #e8edf2;margin-top:12px}
