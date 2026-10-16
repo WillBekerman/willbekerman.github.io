@@ -1,12 +1,9 @@
 ---
-layout: archive
-title: "Curriculum Vitae"
+layout: null
+title: Curriculum Vitae
 permalink: /cv/
-author_profile: true
+sitemap: false
+redirect_to: /files/CV.pdf
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
-
-Please click [here](https://willbekerman.github.io/files/CV.pdf) to view my CV.
