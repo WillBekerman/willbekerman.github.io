@@ -15,3 +15,24 @@ footer{padding:16px 0}
 .paper-links,summary,.tools button{font-size:12px}
 .abstract{font-size:14px;line-height:1.8}
 .group-heading{font-size:15px}
+
+/* Larger, readable typography across the site. */
+body{font-size:18px;line-height:1.75}
+.about-copy,.research-intro,.teaching{font-size:18px}
+.brand{font-size:25px}
+nav a{font-size:16px}
+h1{font-size:28px}
+.profile{font-size:16px}
+.profile h2{font-size:20px}
+.market-label{font-size:14px}
+.market h2{font-size:21px}
+.market p{font-size:17px}
+.paper h3{font-size:20px;line-height:1.5}
+.authors{font-size:16px}
+.paper-meta{font-size:15px}
+.paper-links,summary,.tools button{font-size:16px}
+.abstract{font-size:17px;line-height:1.8}
+.group-heading,.teaching h2{font-size:18px}
+footer{font-size:15px}
+.icon{width:17px;height:17px}
+@media(max-width:700px){.brand{font-size:23px}nav{gap:20px}.profile{font-size:16px}.paper h3{font-size:19px}}
