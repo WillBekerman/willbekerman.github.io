@@ -36,3 +36,16 @@ h1{font-size:28px}
 footer{font-size:15px}
 .icon{width:17px;height:17px}
 @media(max-width:700px){.brand{font-size:23px}nav{gap:20px}.profile{font-size:16px}.paper h3{font-size:19px}}
+
+/* Slightly smaller text outside the job-market and paper cards. */
+body{font-size:17px}
+.about-copy,.research-intro,.teaching{font-size:17px}
+.brand{font-size:24px}
+nav a{font-size:15px}
+h1{font-size:27px}
+.profile{font-size:15px}
+.profile h2{font-size:19px}
+.group-heading,.teaching h2{font-size:17px}
+.tools button{font-size:15px}
+footer{font-size:14px}
+@media(max-width:700px){.brand{font-size:22px}.profile{font-size:15px}}
