@@ -48,9 +48,9 @@ author_profile: true
     <a href='https://github.com/WillBekerman/planning-for-gold' id='link'>[code]</a>
   </p>
 
-  <button class='toggle-button' onclick="showAbstract('abstract1')"><i class="fa fa-caret-down"></i> Abstract</button>
+  <button class='toggle-button' onclick="showAbstract('abstract-planning-for-gold')"><i class="fa fa-caret-down"></i> Abstract</button>
 
-  <p class='abstract' id="abstract1">Observational studies are valuable tools for inferring causal effects in the absence of controlled experiments. However, these studies may be biased due to the presence of some relevant, unmeasured set of covariates. One approach to mitigate this concern is to identify hypotheses likely to be more resilient to hidden biases by splitting the data into a planning sample for designing the study and an analysis sample for making inferences. We devise a powerful and flexible method for selecting hypotheses in the planning sample when an unknown number of outcomes are affected by the treatment. We investigate the theoretical properties of our method and conduct extensive simulations that demonstrate pronounced benefits, especially at higher levels of allowance for unmeasured confounding. Finally, we demonstrate our method in an observational study of the multi-dimensional impacts of a devastating flood in Bangladesh.</p>
+  <p class='abstract' id="abstract-planning-for-gold">Observational studies are valuable tools for inferring causal effects in the absence of controlled experiments. However, these studies may be biased due to the presence of some relevant, unmeasured set of covariates. One approach to mitigate this concern is to identify hypotheses likely to be more resilient to hidden biases by splitting the data into a planning sample for designing the study and an analysis sample for making inferences. We devise a powerful and flexible method for selecting hypotheses in the planning sample when an unknown number of outcomes are affected by the treatment. We investigate the theoretical properties of our method and conduct extensive simulations that demonstrate pronounced benefits, especially at higher levels of allowance for unmeasured confounding. Finally, we demonstrate our method in an observational study of the multi-dimensional impacts of a devastating flood in Bangladesh.</p>
 
   <br>
 
@@ -109,7 +109,7 @@ Our empirical investigations focus on two brain tumor studies dealing with astro
 <script>
 function showAbstract(abstractId) {
   var paragraph = document.getElementById(abstractId);
-  if (paragraph.style.display === "none") {
+  if (paragraph.style.display !== "block") {
     paragraph.style.display = "block";
   } else {
     paragraph.style.display = "none";
